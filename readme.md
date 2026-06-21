@@ -382,7 +382,12 @@ litex_term --kernel firmware_csr.bin --kernel-adr 0x10000000 socket://localhost:
 > **Lưu ý:** Nếu Terminal hiện ra dấu nhắc `litex>` mà chưa tự nạp, hãy gõ lệnh `serialboot` rồi nhấn Enter để kích hoạt quá trình boot.
 
 **Kết quả chạy Terminal thực tế:**
-![Terminal Output](images/terminal_output.png)
+
+*Màn hình BIOS khởi động ban đầu:*
+![BIOS Boot](images/bios_boot.png)
+
+*Màn hình sau khi firmware nạp thành công và chạy các bài test:*
+![Firmware Output](images/firmware_output.png)
 
 ### Bước 5: Xem dạng sóng (Waveform)
 
