@@ -1,0 +1,41 @@
+# Python Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# LiteX Repositories (tải về qua litex_setup.py)
+pythondata-*/
+litex-*/
+migen/
+nhap/
+litedram/
+liteeth/
+litei2c/
+liteiclink/
+litejesd204b/
+litepcie/
+litesata/
+litescope/
+litesdcard/
+litespi/
+litex/
+litex-boards/
+
+# Thư mục build (Hardware & Firmware tự động sinh)
+build/
+
+# Firmware binaries
+*.o
+*.elf
+*.bin
+*.map
+*.dump
+
+# Log và Waveform files
+*.log
+*.fst
+sim_output.txt
+
+# File setup tải về
+litex_setup.py
+litex_repos.py

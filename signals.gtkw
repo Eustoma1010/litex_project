@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer
+[*]
+[dumpfile] "build/sim/gateware/sim.fst"
+[timestart] 0
+[size] 1280 720
+[pos] -1 -1
+*-10.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.sim.
+[treeopen] TOP.sim.cpu.
+[treeopen] TOP.sim.uart.
+@28
+TOP.sim.sys_clk
+TOP.sim.sys_rst
+@200
+-Bus Lenh (Instruction)
+@28
+TOP.sim.ibus_cyc
+TOP.sim.ibus_ack
+@200
+-Bus Du Lieu (Data)
+@28
+TOP.sim.dbus_cyc
+TOP.sim.dbus_ack
+@200
+-Giao Tiep UART
+@28
+TOP.sim.serial_source_valid
+TOP.sim.serial_sink_valid
